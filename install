@@ -1,0 +1,5 @@
+vagrant box add default  ./Fedora-Cloud-Base-Vagrant-24-1.2.x86_64.vagrant-virtualbox.box
+vagrant up --provider virtualbox
+vagrant ssh
+vagrant destroy
+
